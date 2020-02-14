@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Header = () => (
+const Navbar = () => (
     <React.Fragment>
       <NavLink exact activeClassName="active" to="/">
         Welcome
       </NavLink>
       <NavLink exact activeClassName="active" to="/skills">
-        My Skills
+        My Work
       </NavLink>
         <NavLink exact activeClassName="active" to="/projects">
         Projects
@@ -18,5 +18,5 @@ const Header = () => (
     </React.Fragment>
   );
   
-  export default Header;
+  export default Navbar;
   
