@@ -1,12 +1,21 @@
-import React from 'react';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => (
-    <header className="header">
-      <h1>Hello</h1>
-      <h4>Who am I ?</h4>
-      <h4>My work</h4>
-      <h4>Contact me</h4>
-    </header>
+    <React.Fragment>
+      <NavLink exact activeClassName="active" to="/">
+        Welcome
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/skills">
+        My Skills
+      </NavLink>
+        <NavLink exact activeClassName="active" to="/projects">
+        Projects
+      </NavLink>
+      <NavLink exact activeClassName="active" to="/contact">
+        Contact
+      </NavLink>
+    </React.Fragment>
   );
   
   export default Header;
