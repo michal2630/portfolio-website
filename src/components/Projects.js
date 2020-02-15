@@ -2,7 +2,7 @@ import React from 'react';
 
 const Projects = () => (
     <React.Fragment>
-        <h4>Projects</h4>
+        <h1>Projects</h1>
     </React.Fragment>
 )
 

@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => (
     <React.Fragment>
       <NavLink exact activeClassName="active" to="/">
-        Welcome
+        Hello
       </NavLink>
-      <NavLink exact activeClassName="active" to="/skills">
-        My Work
+      <NavLink exact activeClassName="active" to="/technologies">
+        Technologies
       </NavLink>
         <NavLink exact activeClassName="active" to="/projects">
         Projects

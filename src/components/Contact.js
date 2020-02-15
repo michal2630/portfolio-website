@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
     <React.Fragment>
-        <div>Hi</div>
+        <h1>Contact me</h1>
     </React.Fragment>
 );
 
