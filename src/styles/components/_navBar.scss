@@ -1,0 +1,17 @@
+.navBar-wrap {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background:pink;
+    height: $xl-size;
+    padding: $s-size;
+    font-size: $l-size;
+    top: 0;
+    text-align: center;
+}
+
+.navBar-wrap > * {
+    text-decoration: none;
+    margin-left: $l-size;
+    color:#fff4b3;
+}

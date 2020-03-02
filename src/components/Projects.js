@@ -1,9 +1,50 @@
 import React from 'react';
+import Wrapper from './Wrapper';
 
 const Projects = () => (
-    <React.Fragment>
+    <Wrapper>
         <h1>Projects</h1>
-    </React.Fragment>
+
+
+
+        
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+        <h1>Has</h1>
+    </Wrapper>
 )
 
 
