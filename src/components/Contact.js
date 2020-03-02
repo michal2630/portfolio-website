@@ -21,6 +21,7 @@ class Contact extends Component {
   render() {
 	return (
 	<Wrapper>
+		<h1>Send me email!</h1>
 		<form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
 			<div className="form-group">
 				<label for="name">Name</label>

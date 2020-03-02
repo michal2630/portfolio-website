@@ -6,25 +6,23 @@
 html {
     font-size: 62.5%;
   }
-
   
   body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
     background-color: grey;
-    overflow-x: hidden
+    overflow-x: hidden;
+    
   }
 
-  body,
-  html,
-  .app {
-    position: relative;
-    min-height: 100vh;
+  h1 {
+    margin: $m-size;
   }
 
 .website-content {
   margin: $xl-size;
   margin-top: 12vh;
+  text-align: center;
 }
 
 
