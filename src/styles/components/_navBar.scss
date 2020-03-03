@@ -1,17 +1,10 @@
-.navBar-wrap {
+.navbar {
     position: fixed;
-    z-index: 1;
     width: 100%;
-    background:pink;
-    height: $xl-size;
-    padding: $s-size;
-    font-size: $m-size;
+    background-color: greenyellow;
     top: 0;
-    text-align: center;
 }
 
-.navBar-wrap > * {
+.navbar > * {
     text-decoration: none;
-    margin-left: $l-size;
-    color:#fff4b3;
 }

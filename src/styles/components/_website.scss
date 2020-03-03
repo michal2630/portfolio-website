@@ -1,6 +1,11 @@
-.example-container {
-    border: 2px solid black;
-    width: 50vh;
-    height: 25vh;
-    background-color: yellow;
+.website-card {
+    background-color: purple;
+    padding: $s-size;
+    border: 1px solid black;
+    margin: $s-size;
+}
+
+.text-below-img {
+    background-color: red;
+    max-width: 50vh;
 }

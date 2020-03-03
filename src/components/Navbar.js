@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => (
     <React.Fragment>
-      <div className="navBar-wrap">
+      <div className="navbar">
         <NavLink exact activeClassName="active" to="/">
           Hello
         </NavLink>

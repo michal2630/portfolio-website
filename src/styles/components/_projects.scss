@@ -1,5 +1,11 @@
-.projects-examples {
+.project-layout {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-layout img {
+    width: 50vh;  
+    max-width: 100%;
+    border: 1px solid black;
 }

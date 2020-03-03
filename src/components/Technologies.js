@@ -1,10 +1,9 @@
 import React from "react";
-import Wrapper from './Wrapper';
 
 const Technologies = () => (
-    <Wrapper>
+    <React.Fragment>
         <h1>Technologies I use</h1>
-    </Wrapper>
+    </React.Fragment>
 )
 
 export default Technologies;

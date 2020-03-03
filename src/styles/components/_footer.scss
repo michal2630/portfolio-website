@@ -1,9 +1,6 @@
 footer {
-  background:  pink;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: $xl-size;
-  padding: $s-size;
-  text-align: center;
-}
+    flex-shrink: 0;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+  }
