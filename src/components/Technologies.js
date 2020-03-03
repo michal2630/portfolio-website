@@ -18,17 +18,23 @@ const Technologies = () => (
     <React.Fragment>
         <h1>Technologies I use</h1>
             <div className="icons">
-                <DiBootstrap />
-                <DiGitBranch />
-                <DiNpm />
-                <DiSass />
-                <DiPhotoshop />
-                <DiHtml5 />
-                <DiJavascript1 />
-                <DiGithubBadge />
-                <DiReact />
-                <DiCss3 />
-                <DiNodejs />
+                <div className="column">
+                    <DiJavascript1 />
+                    <DiReact />
+                    <DiGitBranch />
+                    <DiHtml5 />
+                </div>
+                <div className="column">
+                    <DiPhotoshop />
+                    <DiBootstrap />
+                    <DiCss3 />
+                    <DiSass />
+                </div>
+                <div className="column">
+                    <DiGithubBadge />
+                    <DiNpm />
+                    <DiNodejs />
+                </div>
             </div>
     </React.Fragment>
 )
