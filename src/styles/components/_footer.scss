@@ -1,9 +1,38 @@
 footer {
     position: fixed;
-    bottom: 1;
+    bottom: 0;
     text-align: center;
     background-color: tomato;
     color: white;
     width: 100%;
-
+    padding: $s-size;
   }
+
+.footer-icon {
+  font-size: $xl-size;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon > *:not(:first-child) {
+  margin-left: $xxxl-size;
+}
+
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+
+@media (max-width: 760px){
+  .footer-icon {
+      justify-content: space-around;
+      margin-left: 0;
+  }
+
+  .footer-icon > *:not(:first-child) {
+    margin-left: 0;
+  }
+}
