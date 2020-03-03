@@ -9,3 +9,10 @@
     max-width: 100%;
     border: 1px solid black;
 }
+
+
+@media (max-width: 760px){
+    .project-layout {
+        background-color: red;
+    }
+}
