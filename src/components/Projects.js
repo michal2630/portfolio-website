@@ -1,7 +1,7 @@
 import React from 'react';
 import Website from './Website';
-import OLB from './img/olb.png';
-import WiP from './img/WiP.png'
+import OLB from "../img/olb.png";
+import WiP from '../img/WiP.png'
 
 
 const Projects = () => (

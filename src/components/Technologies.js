@@ -1,42 +1,23 @@
 import React from "react";
-import {
-    DiBootstrap,
-    DiCss3,
-    DiReact,
-    DiGithubBadge,
-    DiJavascript1,
-    DiHtml5,
-    DiPhotoshop,
-    DiSass,
-    DiNpm,
-    DiGitBranch,
-    DiNodejs
-} from "react-icons/di";
+import IconsData from '../data/iconsData.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const Technologies = () => (
+
     <React.Fragment>
-        <h1>Technologies I use</h1>
-            <div className="icons">
-                <div className="column">
-                    <DiJavascript1 />
-                    <DiReact />
-                    <DiGitBranch />
-                    <DiHtml5 />
-                </div>
-                <div className="column">
-                    <DiPhotoshop />
-                    <DiBootstrap />
-                    <DiCss3 />
-                    <DiSass />
-                </div>
-                <div className="column">
-                    <DiGithubBadge />
-                    <DiNpm />
-                    <DiNodejs />
-                </div>
-            </div>
+        <h1>Technologies I use</h1>     
+        {IconsData.map((Icon, index)=>{
+          let Icons = Icon.name;
+            return <FontAwesomeIcon 
+                icon={['fab', Icons]} 
+                key={Icon.id} 
+                size="4x"
+                />
+        })};
+
     </React.Fragment>
-)
+);
+
 
 export default Technologies;
