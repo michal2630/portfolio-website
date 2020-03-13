@@ -6,14 +6,27 @@ import { renderEmail } from 'react-html-email';
 class Contact extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { feedback: '', name: 'Mike', email: 'gogog@o2.pl' };
+      this.state = { 
+        name: '', 
+        message: '', 
+        email: '' };
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleSubmit(event){
+    handleChange (event) {
+      this.setState({ [event.target.name]: event.target.value });
+    }
 
-        const messageHtml =  renderEmail(<MyEmail name={this.state.name} feedback={this.state.feedback} />);
+    handleSubmit(event){
+      event.preventDefault();
+        
+      const messageHtml =  renderEmail(
+        <MyEmail 
+          name={this.state.name} 
+          message={this.state.message} 
+          email={this.state.email} 
+        />);
 
         axios({
             method: "POST",
@@ -26,40 +39,52 @@ class Contact extends React.Component {
         }).then((response) => {
             console.log(response);
             if (response.data.msg === 'success') {
-                alert("Email sent, awesome!");
+                alert("Email sent, thank you!");
             } else if (response.data.msg === 'fail') {
-                alert("Oops, something went wrong. Try again")
+                alert("Something went wrong. Try again")
             }
-        });
+        }).then(this.setState({message: '', name: '', email: ''}));
     }
-
-    handleChange(event) {
-      this.setState({feedback: event.target.value})
-    }
-    
-    resetForm(){
-
-      this.setState({feedback: ''});
-  }
-
-
 
     render() {
       return (
-        <form className="test-mailing">
+        <form className="mailing-form">
           <h1>Let's see if it works</h1>
           <div>
+
+          <label for="name">
+            Name:
+            <input 
+              type="text" 
+              name="name" 
+              onChange={this.handleChange}
+              value={this.state.name}
+              required
+            />
+          </label>
+
+          <label for="email">
+            Email:
+            <input 
+              type="email" 
+              name="email" 
+              onChange={this.handleChange}
+              value={this.state.email}
+              required
+            />
+          </label>
+
             <textarea
-              id="test-mailing"
-              name="test-mailing"
+              id="mailing-form"
+              name="message"
               onChange={this.handleChange}
               placeholder="Post some lorem ipsum here"
               required
-              value={this.state.feedback}
+              value={this.state.message}
               style={{width: '100%', height: '150px'}}
             />
           </div>
-          <input type="button" value="Submit" className="btn btn--submit" onClick={this.handleSubmit} />
+          <input type="button" value="Submit" className="submit-form" onClick={this.handleSubmit} />
         </form>
       )
     }

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Email, Item, A} from 'react-html-email';
+import { Email, Item} from 'react-html-email';
 
-export default function InlineLink({name, feedback, children}) {
+export default function InlineLink({name, message, email}) {
   return (
   <Email title='link'>
     <Item>
-       Hello {name}
-      Your message is: {feedback}
+       You have a message from: {name}
     </Item>
-    <Item>
-      {children}
+      {message}
+    <Item> 
+      His email is: {email}
     </Item>
   </Email>
 )};
