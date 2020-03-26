@@ -1,0 +1,88 @@
+.form-wrapper {
+    font-size: $l-size;
+    background: white;
+    padding: $xl-size;
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: $xl-size;
+}
+
+.form-wrapper h4 {
+    margin-bottom: $l-size;
+}
+
+.form-wrapper input{
+    background-color: #d9d9d9;
+    font-size: $m-size;
+    border-radius: 10px;
+    border: 4px solid #d9d9d9;
+    transition: all .2s ease-out;
+    padding: $xs-size;
+    outline: 0;
+    width: 40%;
+}
+
+.form-wrapper input:focus {
+    background-color: #bfbfbf;
+    border: 2px solid rgb(20, 194, 34);
+}
+
+.form-wrapper textarea {
+    background-color: #d9d9d9;
+    font-size: $m-size;
+    border-radius: 10px;
+    border: 4px solid #d9d9d9;
+    transition: all .2s ease-out;
+    padding: $xs-size;
+    outline: 0;
+    width: 40%;
+    height: $xxl-size;
+}
+
+.form-wrapper textarea:focus {
+    background-color: #bfbfbf;
+    border: 2px solid rgb(20, 194, 34);
+}
+
+.form-error {
+    display: block;
+    color: red;
+    font-size: $s-size;
+    margin: $s-size;
+}
+
+.contact-field {
+    margin: $m-size;
+}
+
+.contact-message {
+    height: 50px;
+}
+
+.submit button {
+    margin: $m-size;
+    background-color: #44c767;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.submit button:hover {
+    background-color: #5cbf2a;
+}
+
+.submit button:active {
+    position: relative;
+    top: 1px;
+}
+
+.submit button:focus {
+    outline: 0;
+}

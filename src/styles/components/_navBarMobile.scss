@@ -1,0 +1,62 @@
+@media screen and (min-width:760px){
+    nav {
+      display: flex;
+      padding: 0 20px;
+    }
+
+    nav li {
+        position: relative;
+        list-style-type: none;
+    }
+      
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: #444;
+        position: absolute;
+        bottom: 0;
+        width: 0%;
+        transition: all ease-in-out 250ms;
+    }
+      
+    nav a:hover::before {
+        width: 82%;
+    }
+ 
+    .hamburgerBtn {
+        display: none;
+    }
+  
+    ul {
+        display: flex;
+        height: auto;
+        margin-right: 10%;
+    }
+  
+    nav ul a {
+        background: transparent;
+    }
+  
+    ul li {
+        margin-left: $m-size;
+    }
+  
+    ul li a:hover  {
+        padding: $s-size;
+        background-color: $color-motto
+    }
+    
+    ul li a {
+        border-bottom: none;
+        color: black;
+    }  
+
+    ul li a:hover {
+        color: black;
+    }
+
+    .logo {
+        padding: 8px;
+    }
+}  
