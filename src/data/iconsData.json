@@ -1,65 +1,74 @@
 [
     {
         "id": 1,
-        "column": 1,
+        "column": 0,
         "name": "react",
-        "description": "Setting up react",
-        "additional-info": "-react"
+        "title": "React",
+        "description": "This website is build with react, but I'm constantly trying to imporve my skills in that technology"
     },
     {
         "id": 2,
-        "column": 1,
+        "column": 0,
         "name": "js-square",
-        "description": "Setting up react",
-        "additional-info": "setup-react"
+        "title": "JavaScript",
+        "description": "Super useful in many respects, very versatile language without it I wouldn't be able to learn React"
     },
     {
         "id": 3,
-        "column": 1,
+        "column": 0,
         "name": "git-alt",
-        "description": "All well Mr",
-        "additional-info": "tct"
+        "title": "Git",
+        "description": "Every bigger project which I'm working on, lands on GitHub, it's easier to manage especially while messing with the fr"
     },
     {
         "id": 4,
-        "column": 3,
+        "column": 0,
         "name": "npm",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "NPM",
+        "description": "Working with react pushed me to gets familiar with NPM packages and using them"
     },
     {
         "id": 5,
-        "column": 2,
+        "column": 1,
         "name": "bootstrap",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "Bootstrap",
+        "description": "Very useful if I want to do a project quickly, I have basic knowledge in it"
     },
     {
         "id": 6,
-        "column": 2,
+        "column": 1,
         "name": "css3-alt",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "CSS",
+        "description": "I know some fancy tricks to make a website look nice just with pure css"
     },
     {
         "id": 7,
-        "column": 2,
+        "column": 1,
         "name": "sass",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "Sass",
+        "description": "Allows me to get my code cleaner and sorted as well it's easier to read for others"
     },
     {
         "id": 8,
         "column": 1,
         "name": "html5",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "HTML",
+        "description": "Fairly good knowledge of HTML, good enough to build a websites"
     },    
     {
         "id": 9,
-        "column": 3,
+        "column": 1,
         "name": "adobe",
-        "description": "HTML",
-        "additional-info": "html-tct-html"
+        "title": "Adobe Package",
+        "description": "In one of my commercial project, I took all photos and edited them in Photoshop"
+    },
+    {
+        "id": 10,
+        "column": 0,
+        "name": "sourcetree",
+        "title": "SQL",
+        "description": "Nice mix to know alongside with JavaScript, currently studying by online courses"
     }
+
+
 ]

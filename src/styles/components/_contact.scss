@@ -2,9 +2,10 @@
     font-size: $l-size;
     background: white;
     padding: $xl-size;
-    max-width: 40%;
+    max-width: 50%;
     margin: auto;
     margin-bottom: $xl-size;
+    margin-bottom: 8%;
 }
 
 .form-wrapper h4 {
@@ -19,7 +20,7 @@
     transition: all .2s ease-out;
     padding: $xs-size;
     outline: 0;
-    width: 40%;
+    width: 50%;
 }
 
 .form-wrapper input:focus {
@@ -35,7 +36,7 @@
     transition: all .2s ease-out;
     padding: $xs-size;
     outline: 0;
-    width: 40%;
+    width: 50%;
     height: $xxl-size;
 }
 

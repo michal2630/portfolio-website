@@ -26,7 +26,7 @@ class Navbar extends Component {
           <nav>
             
           <div className="logoBtn">
-          <p class="logo">M&M</p>
+          <p className="logo">M&M</p>
               <div className="hamburgerBtn" onClick={this.handleClick}> 
                 <div className="bar"></div>
                 <div className="bar"></div>
@@ -86,5 +86,7 @@ class Navbar extends Component {
       );
     }
 }
-  export default Navbar;
+
+
+export default Navbar;
   

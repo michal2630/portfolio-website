@@ -1,11 +1,34 @@
 .website-card {
-    background-color: purple;
-    padding: $s-size;
-    border: 1px solid black;
-    margin: $s-size;
+    background-color: #a8b4c1;
+    background-image: radial-gradient(circle, purple, yellow, green);
+    padding: $m-size;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.website-card img:hover {
+    opacity: 0.5;
+}
+
+.border-card {
+    border: 2px solid black;
+    background-image: linear-gradient( #d4d4d4, #b9b9b9,#5bca57);
 }
 
 .text-below-img {
-    background-color: red;
     max-width: 50vh;
+    width: 100%;
+}
+
+.linkWebsiteCard {
+    font-weight: bold;
+}
+
+.linkWebsiteCard:hover {
+    color: $color-motto;
+    cursor: pointer;
+} 
+
+.additionalDescriptionCard {
+    padding: 4%;
 }

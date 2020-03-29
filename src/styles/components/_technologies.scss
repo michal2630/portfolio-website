@@ -1,3 +1,57 @@
+.technologies-container {
+    display: flex;
+    color: $color-motto;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.column {
+    display: flex;
+    width: 32%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(87, 87, 87, 0.815);
+    padding: 20px;
+}
+
+.technlogy-card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    background-color: rgba(131, 122, 122, 0.815);
+    box-shadow: 0 0 15px 10px #555;
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $color-motto;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(27, 27, 27, 0.815);       
+}
+
+.technlogyTitle {
+    font-family: Impact;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+
+.technlogyDescription {
+    color: black;   
+}
+
+.cardDescription {
+    text-align: left;
+}
+
 .icons {
     font-size: $xl-size;
     width: 100%;
@@ -11,13 +65,4 @@
 
 .icons svg {
     margin: $s-size;
-    
-}
-
-.column {
-    display: flex;
-    width: 32%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
