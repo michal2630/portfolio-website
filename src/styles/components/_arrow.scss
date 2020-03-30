@@ -1,0 +1,88 @@
+.arrowSRotate {
+  transform: rotate(90deg);
+}
+
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    animation: arrow 700ms linear infinite;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    right: -8px;
+    background-color: #fff;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(45deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+  
+  .bounce {
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateX(0); }
+    40% {
+      -webkit-transform: translateX(-30px); }
+    60% {
+      -webkit-transform: translateX(-15px); } 
+    }
+  
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateX(0); }
+    40% {
+      -moz-transform: translateX(-30px); }
+    60% {
+      -moz-transform: translateX(-15px); } 
+    }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      transform: translateX(0); }
+    40% {
+      -webkit-transform: translateX(-30px);
+      -moz-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+      -o-transform: translateX(-30px);
+      transform: translateX(-30px); }
+    60% {
+      -webkit-transform: translateX(-15px);
+      -moz-transform: translateX(-15px);
+      -ms-transform: translateX(-15px);
+      -o-transform: translateX(-15px);
+      transform: translateX(-15px); } 
+    }
