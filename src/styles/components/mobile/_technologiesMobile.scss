@@ -1,0 +1,58 @@
+@media screen and (max-width:1450px){
+
+    .technologies-container{
+        display: inline-block;
+        font-size: $l-size;
+    }
+
+    .technlogy-card {
+        width: 70%;
+    }
+
+    .column {
+        margin-bottom: 15%;
+        width: auto;
+        padding: 0px;
+        background: none;
+    }
+
+    .icon-card {
+        display: inline-block;
+        font-size: $m-size;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .technlogyTitle {
+        text-align: center;
+    }
+
+    .technlogyDescription {
+        text-align: center;
+        padding: $s-size;
+    }
+}
+
+@media screen and (max-width:780px){
+    .technologies-container{
+        display: inline-block;
+        justify-content: center;
+        font-size: $m-size;
+    }
+
+    .technlogy-card {
+        display: inline-block;
+        width: auto;
+    }
+
+    .column {
+        background-color: rgba(87, 87, 87, 0.815);
+    }
+
+    .icon-card {
+        font-size: $s-size;
+        width: 50px;
+    }
+
+}
+

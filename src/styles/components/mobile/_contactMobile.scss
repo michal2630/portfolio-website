@@ -1,0 +1,32 @@
+@media screen and (max-width:780px){
+
+    .form-wrapper {
+        max-width: 100%;
+        padding: $s-size;
+        font-size: $m-size;
+        margin-bottom: 30%;
+    }
+
+    h1 {
+        font-size: $l-size;
+    }
+
+    .form-wrapper h4 {
+        font-size: 2.5rem;
+        padding: $xs-size;
+    }
+
+    .form-wrapper input{
+        width: 90%;
+    }
+    
+    .form-wrapper textarea {
+        width: 90%;
+        height: $xxxl-size;
+    }
+
+    .form-error {
+        font-size: $m-size;
+    }
+
+}

@@ -24,15 +24,3 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: black;
 }
-
-
-@media (max-width: 760px){
-  .footer-icon {
-      justify-content: space-around;
-      margin-left: 0;
-  }
-
-  .footer-icon > *:not(:first-child) {
-    margin-left: 0;
-  }
-}

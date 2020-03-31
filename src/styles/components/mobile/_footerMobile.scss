@@ -1,0 +1,11 @@
+@media screen and (max-width:780px){
+
+    .footer-icon {
+        justify-content: space-around;
+        margin-left: 0;
+    }
+      
+    .footer-icon > *:not(:first-child) {
+        margin-left: 0;
+    }
+}
