@@ -45,7 +45,7 @@ function Home(){
                     
                     <div className="bg-bottom">
                         <div className="bg-bottom-content">
-                            <h1 className="bg-bottom-title" data-aos="fade-right">After a while...</h1>
+                        <h1 className="bg-bottom-title" data-aos="fade-right">After a while...</h1>
                         <h2 className="bg-bottom-text" data-aos="fade-left">
                             it turned out to be something more after short while I started doing some small projects
                             <br/>And here we are, thanks for visiting me on my portfolio website, please have a look around
