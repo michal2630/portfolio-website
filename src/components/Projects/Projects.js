@@ -18,18 +18,6 @@ const Projects = () => (
                     description="First commercial project, simple&clean website" 
                     technology="HTML, CSS, JavaScript, Bootstrap, PHP"
                 />
-                <Website 
-                    image={WiP} 
-                    alt="Product sales website"
-                    description="Project involving backend as well as front end. New implementation of safety features as well as practical" 
-                    technology="React, Redux, Bootstrap"
-                />
-                <Website 
-                    image={WiP} 
-                    alt="Placeholder"
-                    description="abc" 
-                    technology="xyz"
-                />
             </div>
         </AppWrapper>
     </React.Fragment>

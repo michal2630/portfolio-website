@@ -11,63 +11,63 @@
         "column": 0,
         "name": "js-square",
         "title": "JavaScript",
-        "description": "Super useful in many respects, very versatile language without it I wouldn't be able to learn React"
+        "description": "Super useful in many respects, very versatile language and popular these days"
     },
     {
         "id": 3,
         "column": 0,
         "name": "git-alt",
         "title": "Git",
-        "description": "Every bigger project which I'm working on, lands on GitHub, it's easier to manage especially while messing with the fr"
+        "description": "Every bigger project which I'm working on, lands on GitHub either public or private. To make my life easier I'm using Sourcetree"
     },
     {
         "id": 4,
         "column": 0,
         "name": "npm",
         "title": "NPM",
-        "description": "Working with react pushed me to gets familiar with NPM packages and using them"
+        "description": "Working with react pushed me to gets familiar with NPM packages"
     },
     {
         "id": 5,
         "column": 1,
         "name": "bootstrap",
         "title": "Bootstrap",
-        "description": "Very useful if I want to do a project quickly, I have basic knowledge in it"
+        "description": "Very useful if I want to do a project quickly, I have a basic understanding of it"
     },
     {
         "id": 6,
         "column": 1,
         "name": "css3-alt",
         "title": "CSS",
-        "description": "I know some fancy tricks to make a website look nice just with pure css"
+        "description": "A basic tool to work as front-end, quite handy, and underrated by some programmers"
     },
     {
         "id": 7,
         "column": 1,
         "name": "sass",
         "title": "Sass",
-        "description": "Allows me to get my code cleaner and sorted as well it's easier to read for others"
+        "description": "Allows me to get my code cleaner and organized also it's easier to read for others"
     },
     {
         "id": 8,
         "column": 1,
-        "name": "html5",
-        "title": "HTML",
-        "description": "Fairly good knowledge of HTML, good enough to build a websites"
+        "name": "sourcetree",
+        "title": "Java SQL",
+        "description": "I'm currently improving it with online courses"
     },    
     {
         "id": 9,
         "column": 1,
         "name": "adobe",
         "title": "Adobe Package",
-        "description": "In one of my commercial project, I took all photos and edited them in Photoshop"
+        "description": "In one of my commercial project, I took all photos and edited them to meet client requirements in Photoshop"
     },
     {
         "id": 10,
         "column": 0,
-        "name": "sourcetree",
-        "title": "SQL",
-        "description": "Nice mix to know alongside with JavaScript, currently studying by online courses"
+        "name": "java",
+        "title": "Java ",
+        "description": "I started to learn Java recently at JetBrains Academy. Some projects coming soon on Github"
     }
 
 
